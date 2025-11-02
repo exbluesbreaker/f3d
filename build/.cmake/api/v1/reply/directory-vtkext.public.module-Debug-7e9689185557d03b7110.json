@@ -1,0 +1,89 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"/usr/local/lib/cmake/vtk-9.5/vtkModule.cmake",
+			"vtkext/public/module/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4223,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4902,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4699,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5097,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "plugin_sdk",
+			"destination" : "include/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"vtkext/public/module/F3DUtils.h",
+				"vtkext/public/module/vtkF3DFaceVaryingPointDispatcher.h",
+				"vtkext/public/module/vtkF3DGLTFImporter.h",
+				"vtkext/public/module/vtkF3DImporter.h",
+				"vtkext/public/module/vtkF3DBitonicSort.h",
+				"build/vtkext/public/module/vtkextModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "library",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkext.so"
+			],
+			"targetId" : "vtkext::@046eda32992783649866",
+			"targetIndex" : 5,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "vtkext/public/module",
+		"source" : "vtkext/public/module"
+	}
+}

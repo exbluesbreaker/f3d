@@ -1,0 +1,134 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"f3d_plugin_build"
+		],
+		"files" : 
+		[
+			"cmake/f3dPlugin.cmake",
+			"plugins/hdf/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 350,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 363,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 366,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 408,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "configuration",
+			"destination" : "/usr/local/etc/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"plugins/hdf/configs/config.d"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "configuration",
+			"destination" : "/usr/local/etc/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"plugins/hdf/configs/thumbnail.d"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "mimetypes",
+			"destination" : "share/mime/packages",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"plugins/hdf/f3d-hdf-formats.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "plugin",
+			"destination" : "share/applications",
+			"paths" : 
+			[
+				"build/share/applications/f3d-plugin-hdf.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "plugin",
+			"destination" : "share/thumbnailers",
+			"paths" : 
+			[
+				"build/share/thumbnailers/f3d-plugin-hdf.thumbnailer"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "plugin",
+			"destination" : "share/f3d/plugins",
+			"paths" : 
+			[
+				"build/share/f3d/plugins/hdf.json"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "plugins/hdf",
+		"source" : "plugins/hdf"
+	}
+}

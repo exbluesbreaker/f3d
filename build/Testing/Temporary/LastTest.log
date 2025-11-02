@@ -1,0 +1,19 @@
+Start testing: Nov 10 10:36 CET
+----------------------------------------------------------
+121/708 Testing: f3d::TestHDRIFilenameDefault
+121/708 Test: f3d::TestHDRIFilenameDefault
+Command: "/home/bluesbreaker/Development/f3d/build/bin/f3d" "--hdri_filename" "-f" "-j" "--no-config" "/home/bluesbreaker/Development/f3d/testing/data/dragon.vtu" "--resolution=300,300" "--output=/home/bluesbreaker/Development/f3d/build/Testing/Temporary/TestHDRIFilenameDefault.png" "--reference=/home/bluesbreaker/Development/f3d/testing/baselines/TestHDRIFilenameDefault.png" "--rendering-backend=auto"
+Directory: /home/bluesbreaker/Development/f3d/build/application/testing
+"f3d::TestHDRIFilenameDefault" start time: Nov 10 10:36 CET
+Output:
+----------------------------------------------------------
+Image comparison success with an error difference of: 0[0m
+<end of output>
+Test time =   0.75 sec
+----------------------------------------------------------
+Test Passed.
+"f3d::TestHDRIFilenameDefault" end time: Nov 10 10:36 CET
+"f3d::TestHDRIFilenameDefault" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 10 10:36 CET

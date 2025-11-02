@@ -1,0 +1,168 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"f3d_plugin_build"
+		],
+		"files" : 
+		[
+			"cmake/f3dPlugin.cmake",
+			"plugins/native/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 205,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 350,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 350,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 350,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 363,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 366,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 408,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "configuration",
+			"destination" : "/usr/local/etc/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"plugins/native/configs/config.d"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "configuration",
+			"destination" : "/usr/local/etc/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"plugins/native/configs/thumbnail.d"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "mimetypes",
+			"destination" : "share/mime/packages",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"plugins/native/f3d-3d-formats.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "mimetypes",
+			"destination" : "share/mime/packages",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"plugins/native/f3d-3d-image-formats.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "mimetypes",
+			"destination" : "share/mime/packages",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"plugins/native/f3d-vtk-formats.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "plugin",
+			"destination" : "share/applications",
+			"paths" : 
+			[
+				"build/share/applications/f3d-plugin-native.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "plugin",
+			"destination" : "share/thumbnailers",
+			"paths" : 
+			[
+				"build/share/thumbnailers/f3d-plugin-native.thumbnailer"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "plugin",
+			"destination" : "share/f3d/plugins",
+			"paths" : 
+			[
+				"build/share/f3d/plugins/native.json"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "plugins/native",
+		"source" : "plugins/native"
+	}
+}

@@ -1,0 +1,446 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8,
+						13,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b21610ded89feb31a9c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "vtkext",
+					"childIndexes" : 
+					[
+						2,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-vtkext-Debug-4989c041bf7e71bae069.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "vtkext"
+				},
+				{
+					"build" : "vtkext/public",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-vtkext.public-Debug-f196e3865e41dce32cb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vtkext/public"
+				},
+				{
+					"build" : "vtkext/public/module",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-vtkext.public.module-Debug-7e9689185557d03b7110.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "vtkext/public/module",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "vtkext/public/module/Testing",
+					"jsonFile" : "directory-vtkext.public.module.Testing-Debug-04fe10860ee5afea5aa3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "vtkext/public/module/Testing",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "vtkext/private",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"jsonFile" : "directory-vtkext.private-Debug-cfc9e8f7093fb2b3612e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "vtkext/private"
+				},
+				{
+					"build" : "vtkext/private/module",
+					"jsonFile" : "directory-vtkext.private.module-Debug-2e1ea1356847d7d97738.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "vtkext/private/module",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "vtkext/private/module/Testing",
+					"jsonFile" : "directory-vtkext.private.module.Testing-Debug-4e744bf9c0b19752bcf8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "vtkext/private/module/Testing",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "plugins",
+					"childIndexes" : 
+					[
+						9,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugins-Debug-55275e3f2f02dcd473ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugins"
+				},
+				{
+					"build" : "plugins/native",
+					"childIndexes" : 
+					[
+						10,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugins.native-Debug-456506024225c5b8b18f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "plugins/native",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "plugins/native/module",
+					"jsonFile" : "directory-plugins.native.module-Debug-d3b8d1d9e0d2428bd7a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 1,
+					"source" : "plugins/native/module",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "plugins/native/module/Testing",
+					"jsonFile" : "directory-plugins.native.module.Testing-Debug-5c1e23183ea9b5e84f52.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 1,
+					"source" : "plugins/native/module/Testing",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "plugins/hdf",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugins.hdf-Debug-f8ca015628f35e91bab5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 2,
+					"source" : "plugins/hdf",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "library",
+					"childIndexes" : 
+					[
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-library-Debug-65570c23038ce9571963.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "library",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "library/testing",
+					"jsonFile" : "directory-library.testing-Debug-5b77b9fa952020ce89d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "library/testing",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "application",
+					"childIndexes" : 
+					[
+						16
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-application-Debug-8746bb6c4330745d9c80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "application",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "application/testing",
+					"jsonFile" : "directory-application.testing-Debug-4770fac3205741405fca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 0,
+					"source" : "application/testing"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						13,
+						14,
+						15,
+						16
+					],
+					"name" : "F3D",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"name" : "f3d-plugin-native",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "f3d-plugin-hdf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 15,
+					"id" : "f3d::@8badf0d542dc2e21c899",
+					"jsonFile" : "target-f3d-Debug-95c9eb4f1820b8097e6d.json",
+					"name" : "f3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "f3d-plugin-hdf::@93031a2361b265a33c3d",
+					"jsonFile" : "target-f3d-plugin-hdf-Debug-4e270644cd80381341ae.json",
+					"name" : "f3d-plugin-hdf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "f3d-plugin-native::@7e106c26fcba99d51dd7",
+					"jsonFile" : "target-f3d-plugin-native-Debug-e72036e7500b0190ee4a.json",
+					"name" : "f3d-plugin-native",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "libf3d::@25993c7f548492bbc626",
+					"jsonFile" : "target-libf3d-Debug-f29894616e944c61d42a.json",
+					"name" : "libf3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "libf3dSDKTests::@0a4113a26997b974f4dd",
+					"jsonFile" : "target-libf3dSDKTests-Debug-80363579641a97284ca8.json",
+					"name" : "libf3dSDKTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "vtkext::@046eda32992783649866",
+					"jsonFile" : "target-vtkext-Debug-48586c7b05215a8d98da.json",
+					"name" : "vtkext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "vtkextNative::@f7896f242aae778276ef",
+					"jsonFile" : "target-vtkextNative-Debug-29bdc62f2298a4e95a11.json",
+					"name" : "vtkextNative",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "vtkextNativeTests::@01ae90d9914eeb77c3af",
+					"jsonFile" : "target-vtkextNativeTests-Debug-ad4c7ea0509658629fe6.json",
+					"name" : "vtkextNativeTests",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "vtkextPrivate::@8bdbc847eb43b6e3874c",
+					"jsonFile" : "target-vtkextPrivate-Debug-8a60e4c5620a358eadac.json",
+					"name" : "vtkextPrivate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "vtkextPrivateTests::@eb52679e62c0e1aba5de",
+					"jsonFile" : "target-vtkextPrivateTests-Debug-5353b3307cd4d70eee15.json",
+					"name" : "vtkextPrivateTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "vtkextTests::@7f6eb81e6873fb7630fe",
+					"jsonFile" : "target-vtkextTests-Debug-b6c3daaa54a4c89b4b79.json",
+					"name" : "vtkextTests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bluesbreaker/Development/f3d/build",
+		"source" : "/home/bluesbreaker/Development/f3d"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

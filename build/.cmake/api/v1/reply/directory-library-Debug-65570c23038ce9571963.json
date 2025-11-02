@@ -1,0 +1,207 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"library/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 261,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 271,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 278,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 284,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 291,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 301,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 307,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "sdk",
+			"destination" : "lib/cmake/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"build/cmake/f3dConfig.cmake",
+				"build/cmake/f3dConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "library",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libf3d.so.3.3",
+				"lib/libf3d.so.3"
+			],
+			"targetId" : "libf3d::@25993c7f548492bbc626",
+			"targetIndex" : 3,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "library",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libf3d.so"
+			],
+			"targetId" : "libf3d::@25993c7f548492bbc626",
+			"targetIndex" : 3,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "dependencies",
+			"destination" : "lib",
+			"isExcludeFromAll" : true,
+			"runtimeDependencySetName" : "libf3dDeps",
+			"runtimeDependencySetType" : "library",
+			"type" : "runtimeDependencySet"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "sdk",
+			"destination" : "include/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"build/library/public/export.h",
+				"build/library/public/options.h",
+				"library/plugin/plugin.h",
+				"library/plugin/reader.h",
+				"library/public/camera.h",
+				"library/public/context.h",
+				"library/public/engine.h",
+				"library/public/exception.h",
+				"library/public/image.h",
+				"library/public/interactor.h",
+				"library/public/log.h",
+				"library/public/scene.h",
+				"library/public/types.h",
+				"library/public/utils.h",
+				"library/public/window.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "sdk",
+			"destination" : "lib/cmake/f3d",
+			"exportName" : "f3dLibraryTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "libf3d::@25993c7f548492bbc626",
+					"index" : 3
+				}
+			],
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"library/CMakeFiles/Export/b837c8e1dffe8e5616e49eed5af44cb9/f3dLibraryTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "sdk",
+			"destination" : "lib/cmake/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"cmake/library-config.cmake",
+				"cmake/f3dEmbed.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "plugin_sdk",
+			"destination" : "include/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"library/plugin/reader.h",
+				"library/plugin/plugin.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "plugin_sdk",
+			"destination" : "lib/cmake/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"cmake/pluginsdk-config.cmake",
+				"cmake/f3dPlugin.cmake",
+				"cmake/plugin.cxx.in",
+				"cmake/plugin.desktop.in",
+				"cmake/plugin.thumbnailer.in",
+				"cmake/readerBoilerPlate.h.in"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "library",
+		"source" : "library"
+	}
+}

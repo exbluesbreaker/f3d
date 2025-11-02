@@ -1,0 +1,18 @@
+[
+  {
+    "match-type": "exact",
+    "match": "/home/bluesbreaker/Development/f3d/testing/data/suzanne.obj",
+    "options": 
+    {
+      "camera-direction": "-xy+z"
+    }
+  },
+  {
+    "match-type": "exact",
+    "match": "/home/bluesbreaker/Development/f3d/testing/data/suzanne.ply",
+    "options": 
+    {
+      "edges": true
+    }
+  }
+]

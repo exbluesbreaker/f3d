@@ -1,0 +1,10 @@
+[
+{
+  "options":
+  {
+    "hdri-ambient": true,
+    "hdri-skybox": true,
+    "hdri-file": "/home/bluesbreaker/Development/f3d/testing/data/palermo_park_1k.hdr"
+  }
+}
+]

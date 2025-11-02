@@ -1,0 +1,368 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"application/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 247,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 260,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 266,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 275,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 282,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 290,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 292,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 295,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 298,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 301,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 304,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 307,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 310,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 313,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 316,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 322,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 325,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "application",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/f3d"
+			],
+			"targetId" : "f3d::@8badf0d542dc2e21c899",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "sdk",
+			"destination" : "lib/cmake/f3d",
+			"exportName" : "f3dTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "f3d::@8badf0d542dc2e21c899",
+					"index" : 0
+				}
+			],
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"application/CMakeFiles/Export/b837c8e1dffe8e5616e49eed5af44cb9/f3dTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "sdk",
+			"destination" : "lib/cmake/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"cmake/application-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "configuration",
+			"destination" : "/usr/local/etc/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "resources/configs",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "colormaps",
+			"destination" : "share/f3d/colormaps",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "resources/colormaps",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "assets",
+			"destination" : "share/applications",
+			"paths" : 
+			[
+				"resources/f3d.desktop"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "assets",
+			"destination" : "share/icons/hicolor/16x16/apps",
+			"paths" : 
+			[
+				{
+					"from" : "resources/logo16.png",
+					"to" : "f3d.png"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "assets",
+			"destination" : "share/icons/hicolor/24x24/apps",
+			"paths" : 
+			[
+				{
+					"from" : "resources/logo24.png",
+					"to" : "f3d.png"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "assets",
+			"destination" : "share/icons/hicolor/32x32/apps",
+			"paths" : 
+			[
+				{
+					"from" : "resources/logo32.png",
+					"to" : "f3d.png"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "assets",
+			"destination" : "share/icons/hicolor/48x48/apps",
+			"paths" : 
+			[
+				{
+					"from" : "resources/logo48.png",
+					"to" : "f3d.png"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "assets",
+			"destination" : "share/icons/hicolor/64x64/apps",
+			"paths" : 
+			[
+				{
+					"from" : "resources/logo64.png",
+					"to" : "f3d.png"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "assets",
+			"destination" : "share/icons/hicolor/256x256/apps",
+			"paths" : 
+			[
+				{
+					"from" : "resources/logo256.png",
+					"to" : "f3d.png"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "assets",
+			"destination" : "share/icons/hicolor/scalable/apps",
+			"paths" : 
+			[
+				{
+					"from" : "resources/logo.svg",
+					"to" : "f3d.svg"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "assets",
+			"destination" : "share/icons/HighContrast/scalable/apps",
+			"paths" : 
+			[
+				{
+					"from" : "resources/logo-mono.svg",
+					"to" : "f3d.svg"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "shellext",
+			"destination" : "share/bash-completion/completions",
+			"paths" : 
+			[
+				{
+					"from" : "resources/completion.bash",
+					"to" : "f3d"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "shellext",
+			"destination" : "share/zsh/site-functions",
+			"paths" : 
+			[
+				{
+					"from" : "resources/completion.zsh",
+					"to" : "_f3d"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "shellext",
+			"destination" : "share/fish/vendor_completions.d",
+			"paths" : 
+			[
+				{
+					"from" : "resources/completion.fish",
+					"to" : "f3d.fish"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "assets",
+			"destination" : "share/metainfo",
+			"paths" : 
+			[
+				"resources/app.f3d.F3D.metainfo.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "application",
+		"source" : "application"
+	}
+}
